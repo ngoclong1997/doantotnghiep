@@ -1,0 +1,119 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html layout:decorate="~{main-layout}" xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="#{${title}}"></title>
+</head>
+<body>
+
+<div layout:fragment="header">
+    <div class="col-sm-6">
+        <h1><span th:text="#{${title}}"></span></h1>
+    </div>
+    <div class="col-sm-6">
+        <ol class="breadcrumb float-sm-right">
+            <li class="breadcrumb-item"><a th:href="@{/}"><span th:text="#{lang.home-page}"></span></a></li>
+            <li class="breadcrumb-item"><a th:href="@{/admin}"><span th:text="#{lang.manager}"></span></a></li>
+            <li class="breadcrumb-item"><span th:text="#{${title}}"></span></li>
+        </ol>
+    </div>
+</div>
+
+<div layout:fragment="content">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <form th:action="@{/manager/exam/add}" th:object="${exam}" method="post">
+                    <div class="card-body">
+                        <div th:if="${!#strings.isEmpty(message)}">
+                            <div class="alert alert-info col-6"><span th:text="#{${message}}"></span></div>
+                        </div>
+
+                        <div th:if="${#fields.hasGlobalErrors()}">
+                            <div class="alert alert-danger col-8" th:each="error : ${#fields.errors('global')}" th:text="${error}"></div>
+                        </div>
+
+
+                        <div class="form-row">
+                            <div class="form-group col-8">
+                                <label for="exam-name" class="control-label" th:classappend="${#fields.hasErrors('name')}? 'text-danger':''"><span th:text="#{lang.exam-name}"></span></label>
+                                <input id="exam-name" class="form-control" th:classappend="${#fields.hasErrors('name')}? 'is-invalid':''" th:field="*{name}" th:placeholder="#{lang.exam-name-placeholder}"/>
+                                <div class="invalid-feedback" th:each="error: ${#fields.errors('name')}" th:text="${error}">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-8">
+                                <label for="startDate" th:classappend="${#fields.hasErrors('startDate')}? 'text-danger':''"><span th:text="#{lang.start-date}"></span></label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+                                    </div>
+                                    <input id="startDate" type="text" placeholder="dd/mm/yyyy" class="form-control" data-inputmask-alias="datetime" data-inputmask-inputformat="dd/mm/yyyy" data-mask th:field="*{startDate}" th:classappend="${#fields.hasErrors('startDate')}? 'is-invalid':''">
+                                    <div class="invalid-feedback" th:each="error: ${#fields.errors('startDate')}" th:text="${error}"></div>
+                                </div>
+                                <!-- /.input group -->
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-8">
+                                <label for="exam-description" class="control-label" th:classappend="${#fields.hasErrors('description')}? 'text-danger':''"><span th:text="#{lang.exam-description}"></span></label>
+                                <textarea id="exam-description" class="form-control" rows="3" th:placeholder="#{lang.exam-description}" th:classappend="${#fields.hasErrors('description')}? 'is-invalid':''" th:field="*{description}"></textarea>
+                                <div class="invalid-feedback" th:each="error: ${#fields.errors('description')}" th:text="${error}">
+                                </div>
+                            </div>
+                        </div>
+
+                        <label class="control-label"><span th:text="#{lang.choose-subject-1}"></span></label>
+
+                        <div class="icheck-primary mb-4 pl-1">
+                            <input type="checkbox" th:value="select-all" id="select-all" />
+                            <label for="select-all"><span th:text="#{lang.select-unselect-all}"></span></label>
+                        </div>
+                        <div class="form-row col-8">
+                            <span th:each="subject, state : ${selectableSubjects}">
+                                <div class="icheck-primary pl-1" style="width: 250px">
+                                    <input th:attr="id=${'subject-' + state.index}" type="checkbox" th:field="*{subjects}" th:value="${subject.id}">
+                                    <label th:attr="for=${'subject-' + state.index}" th:text="${subject.name}"></label>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-1">
+                                    <input type="submit" name="add-user-submit" id="add-user-submit" class="form-control btn btn-success" th:value="#{lang.done}" />
+                                </div>
+                                <div class="col-1">
+                                    <a th:href="@{/manager/exam}" id="add-user-reset" class="form-control btn btn-default"><span th:text="#{lang.cancel}"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div layout:fragment="additionjs">
+    <script>
+        $('#startDate').inputmask('dd/mm/yyyy', { 'placeholder': 'dd/mm/yyyy' })
+        $('#select-all').click(function(event) {
+            if(this.checked) {
+                // Iterate each checkbox
+                $(':checkbox').each(function() {
+                    this.checked = true;
+                });
+            } else {
+                $(':checkbox').each(function() {
+                    this.checked = false;
+                });
+            }
+        });
+    </script>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html layout:decorate="~{main-layout}" xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="#{${title}}"></title>
+</head>
+<body>
+
+<div layout:fragment="header">
+    <div class="col-sm-6">
+        <h1><span th:text="#{${title}}"></span></h1>
+    </div>
+    <div class="col-sm-6">
+        <ol class="breadcrumb float-sm-right">
+            <li class="breadcrumb-item"><a th:href="@{/}"><span th:text="#{lang.home-page}"></span></a></li>
+            <li class="breadcrumb-item"><a th:href="@{/admin}"><span th:text="#{lang.administration}"></span></a></li>
+            <li class="breadcrumb-item"><span th:text="#{${title}}"></span></li>
+        </ol>
+    </div>
+</div>
+
+<div layout:fragment="content">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <!-- /.card-header -->
+                <div class="card-body">
+
+                    <table id="dt-user" class="table table-bordered table-striped display">
+                        <thead>
+                        <tr class="text-center">
+                            <th><span th:text="#{lang.role-name}"></span></th>
+                            <th><span th:text="#{lang.allow-administration}"></span></th>
+                            <th><span th:text="#{lang.allow-exam-mgmt}"></span></th>
+                            <th><span th:text="#{lang.allow-view-report}"></span></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        <tr>
+                            <td>ROLE_ADMIN</td>
+                            <td class="text-center">
+                                <i class="fas fa-check-square text-primary" style="font-size: 25px;"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fas fa-check-square text-primary" style="font-size: 25px;"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fas fa-check-square text-primary" style="font-size: 25px;"></i>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>ROLE_MANAGER</td>
+                            <td class="text-center">
+
+                            </td>
+                            <td class="text-center">
+                                <i class="fas fa-check-square text-primary" style="font-size: 25px;"></i>
+                            </td>
+                            <td class="text-center">
+                                <i class="fas fa-check-square text-primary" style="font-size: 25px;"></i>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>ROLE_USER</td>
+                            <td class="text-center">
+                            </td>
+                            <td class="text-center">
+                            </td>
+                            <td class="text-center">
+                                <i class="fas fa-check-square text-primary" style="font-size: 25px;"></i>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+        </div>
+        <!-- /.col -->
+    </div>
+</div>
+</body>
+</html>

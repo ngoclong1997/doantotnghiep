@@ -1,0 +1,108 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html layout:decorate="~{main-layout}" xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="#{${title}}"></title>
+</head>
+<body>
+
+<div layout:fragment="header">
+    <div class="col-sm-6">
+        <h1><span th:text="#{${title}}"></span></h1>
+    </div>
+    <div class="col-sm-6">
+        <ol class="breadcrumb float-sm-right">
+            <li class="breadcrumb-item"><a th:href="@{/}"><span th:text="#{lang.home-page}"></span></a></li>
+            <li class="breadcrumb-item"><a th:href="@{/admin}"><span th:text="#{lang.viewer}"></span></a></li>
+            <li class="breadcrumb-item"><span th:text="#{${title}}"></span></li>
+        </ol>
+    </div>
+</div>
+
+
+<div layout:fragment="content">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <div th:if="${!#strings.isEmpty(message)}">
+                        <div class="alert alert-info col-6"><span th:text="#{${message}}"></span></div>
+                    </div>
+                    <label><span th:text="#{lang.choose-exam-1}"></span></label>
+                    <form th:action="@{/viewer/manual-edit-report}" th:object="${examFilter}" method="get">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="form-group">
+                                    <select id="slc-exam" th:field="*{examId}" th:classappend="${#fields.hasErrors('examId')}? 'is-invalid':''" class="form-control select2" style="width: 100%;">
+                                        <option value=""><span th:text="#{lang.choose-exam}"></span></option>
+                                        <option th:each="exam, state : ${exams}" th:value="${exam.id}" th:text="${exam.name}"></option>
+                                    </select>
+                                    <div class="invalid-feedback" th:each="error: ${#fields.errors('examId')}" th:text="${error}"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <input type="submit" class="btn btn-success" th:value="#{lang.done}"/>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- /.card-header -->
+                <div class="card-body">
+
+                    <table id="my-data-table" class="table table-bordered table-striped display">
+                        <thead>
+                        <tr class="text-center">
+                            <th>Tên môn</th>
+                            <th>Download</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr th:each="subject, state : ${subjects}">
+
+                            <td class="text-center" th:utext="${subject.name}"></td>
+                            <td class="text-center">
+                                <a th:href="@{/downloadManualEditLogFile(examId=${examId}, subjectId = ${subject.id})}" class="btn btn-primary"><i class="fas fa-download"></i></a>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+        </div>
+        <!-- /.col -->
+    </div>
+</div>
+
+<div layout:fragment="additionjs">
+    <script>
+        $('.select2').select2()
+        $('#my-data-table').DataTable({
+            "lengthMenu":[
+                [10, 25, 50, 100, -1], [10, 25, 50, 100, "All"]
+            ],
+            "language": {
+                "emptyTable": "Sinh viên cho kỳ thi này chưa được nhập",
+                "info": "Đang hiển thị _START_ - _END_ trên tổng cộng _TOTAL_ bản ghi",
+                "infoEmpty":      "Không có bản ghi",
+                "paginate": {
+                    "first":      "Trang đầu",
+                    "last":       "Trang cuối",
+                    "next":       "Trang tiếp",
+                    "previous":   "Trang trước"
+                }
+            },
+            "paging": true,
+            "lengthChange": true,
+            "searching": true,
+            "ordering": true,
+            "autoWidth": true,
+            "columnDefs": [
+                { "width": "20%", "targets": 0 },
+                { "width": "20%", "targets": 1 }
+            ],
+        });
+    </script>
+</div>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html layout:decorate="~{main-layout}" xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="#{${title}}"></title>
+</head>
+<body>
+
+<div layout:fragment="header">
+    <div class="col-sm-6">
+        <h1><span th:text="#{${title}}"></span></h1>
+    </div>
+    <div class="col-sm-6">
+        <ol class="breadcrumb float-sm-right">
+            <li class="breadcrumb-item"><a th:href="@{/}"><span th:text="#{lang.home-page}"></span></a></li>
+            <li class="breadcrumb-item"><a th:href="@{/admin}"><span th:text="#{lang.manager}"></span></a></li>
+            <li class="breadcrumb-item"><span th:text="#{${title}}"></span></li>
+        </ol>
+    </div>
+</div>
+
+<div layout:fragment="content">
+
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+
+                <form th:action="@{/manager/answer/importAnswer}" th:object="${fileAnswer}"  enctype="multipart/form-data" role="form" method="post">
+                    <div class="card-body">
+                        <div th:if="${!#strings.isEmpty(message)}">
+                            <div class="alert alert-info col-6"><span th:text="#{${message}}"></span></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <select id="slc-exam" th:field="*{examId}" th:classappend="${#fields.hasErrors('examId')}? 'is-invalid':''" class="form-control select2" style="width: 100%;">
+                                        <option value=""><span th:text="#{lang.choose-exam}"></span></option>
+                                        <option th:each="exam, state : ${exams}" th:value="${exam.id}" th:text="${exam.name}"></option>
+                                    </select>
+                                    <div class="invalid-feedback" th:each="error: ${#fields.errors('examId')}" th:text="${error}"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <select id="slc-subjects" th:classappend="${#fields.hasErrors('subjectId')}? 'is-invalid':''" th:field="*{subjectId}" class="form-control select2" style="width: 100%;">
+                                        <option value=""><span th:text="#{lang.choose-subject}"></span></option>
+                                        <option th:each="subject, state : ${subjects}" th:value="${subject.id}" th:text="${subject.name}"></option>
+                                    </select>
+                                    <div class="invalid-feedback" th:each="error: ${#fields.errors('subjectId')}" th:text="${error}"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-6">
+                                <label th:classappend="${#fields.hasErrors('file')}? 'text-danger':''" for="exampleInputFile"><span th:text="#{lang.answer-file}"></span></label>
+                                <div class="input-group">
+                                    <div class="custom-file">
+                                        <input accept=".xls,.xlsx" type="file" th:classappend="${#fields.hasErrors('file')}? 'is-invalid':''" th:field="*{file}" class="custom-file-input" th:text="Upload" id="exampleInputFile">
+                                        <label class="custom-file-label" th:classappend="${#fields.hasErrors('file')}? 'text-danger':''" for="exampleInputFile"><span th:text="#{lang.choose-file}"></span></label>
+                                        <div class="invalid-feedback" th:each="error: ${#fields.errors('file')}" th:text="${error}"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.card-body -->
+
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary"><span th:text="#{lang.import-answer}"></span></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div layout:fragment="additionjs">
+    <script type="text/javascript">
+        $('.select2').select2()
+
+        $('#slc-exam').change(function () {
+            addExamSubjects(this.value)
+        })
+
+        function addExamSubjects(examId) {
+            $.ajax({
+                type : "GET",
+                contentType : "application/json",
+                url : "/manager/answer/getExamSubjects?examId="+examId,
+                dataType : 'json',
+                timeout : 100000,
+                success : function(response) {
+                    var html = '';
+                    $.each(response, function (id, subject) {
+                        html += '<option value="' + subject.id + '">' + subject.name + '</option>'
+                    })
+                    $('#slc-subjects').html(html);
+                },
+                error : function(e) {
+                    alert(JSON.stringify(e));
+                }
+            });
+        }
+        $(document).ready(function () {
+            bsCustomFileInput.init();
+        });
+    </script>
+    <script type="text/javascript" th:src="@{/plugins/bs-custom-file-input/bs-custom-file-input.min.js}"></script>
+</div>
+</body>
+</html>

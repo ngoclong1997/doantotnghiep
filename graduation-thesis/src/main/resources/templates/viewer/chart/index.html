@@ -1,0 +1,210 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html layout:decorate="~{main-layout}" xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title><span th:text="${examName}"></span></title>
+</head>
+<body>
+
+<div layout:fragment="header">
+    <div class="col-sm-6">
+        <h1><span th:text="${examName}"></span></h1>
+    </div>
+    <div class="col-sm-6">
+        <ol class="breadcrumb float-sm-right">
+            <li class="breadcrumb-item"><a th:href="@{/}"><span th:text="#{lang.home-page}"></span></a></li>
+            <li class="breadcrumb-item"><a th:href="@{/admin}"><span th:text="#{lang.viewer}"></span></a></li>
+            <li class="breadcrumb-item"><span th:text="${examName}"></span></li>
+        </ol>
+    </div>
+</div>
+
+<div layout:fragment="content">
+    <div class="row">
+        <div class="col-12">
+            <div th:if="${!#strings.isEmpty(message)}">
+                <div class="alert alert-info col-6"><span th:text="#{${message}}"></span></div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <label><span th:text="#{lang.choose-exam-and-subject}"></span></label>
+                    <form th:action="@{/viewer/}" th:object="${subjectExamFilter}" method="get">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="form-group">
+                                    <select id="slc-exam" th:field="*{examId}" th:classappend="${#fields.hasErrors('examId')}? 'is-invalid':''" class="form-control select2" style="width: 100%;">
+                                        <option value=""><span th:text="#{lang.choose-exam}"></span></option>
+                                        <option th:each="exam, state : ${exams}" th:value="${exam.id}" th:text="${exam.name}"></option>
+                                    </select>
+                                    <div class="invalid-feedback" th:each="error: ${#fields.errors('examId')}" th:text="${error}"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="form-group">
+                                    <select id="slc-subjects" th:classappend="${#fields.hasErrors('subjectId')}? 'is-invalid':''" th:field="*{subjectId}" class="form-control select2" style="width: 100%;">
+                                        <option value=""><span th:text="#{lang.choose-subject}"></span></option>
+                                        <option th:each="subject, state : ${subjects}" th:value="${subject.id}" th:text="${subject.name}"></option>
+                                    </select>
+                                    <div class="invalid-feedback" th:each="error: ${#fields.errors('subjectId')}" th:text="${error}"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <input type="submit" class="btn btn-success" th:value="#{lang.view-statistic}"/>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="info-box">
+                        <span class="info-box-icon bg-info elevation-1"><i class="fas fa-users"></i></span>
+
+                        <div class="info-box-content">
+                            <span class="info-box-text"><span th:text="#{lang.number-of-students}"></span></span>
+                            <span class="info-box-number" th:text="${totalStudent}"></span>
+                        </div>
+                        <!-- /.info-box-content -->
+                    </div>
+                    <!-- /.info-box -->
+                </div>
+                <!-- /.col -->
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="info-box mb-3">
+                        <span class="info-box-icon bg-danger elevation-1"><i class="fas fa-copy"></i></span>
+                        <div class="info-box-content">
+                            <span class="info-box-text"><span th:text="#{lang.highest-lowest-point}"></span></span>
+                            <span class="info-box-number" th:text="${maxPoint + '/' + minPoint}">9</span>
+                        </div>
+                        <!-- /.info-box-content -->
+                    </div>
+                    <!-- /.info-box -->
+                </div>
+                <!-- /.col -->
+
+                <!-- fix for small devices only -->
+                <div class="clearfix hidden-md-up"></div>
+
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="info-box mb-3">
+                        <span class="info-box-icon bg-success elevation-1"><i class="fas fa-arrow-circle-up"></i></span>
+
+                        <div class="info-box-content">
+                            <span class="info-box-text" th:text="#{lang.upper-medium-score}"></span>
+                            <span class="info-box-number"><span th:text="${totalUpperMediumScore}"></span><small>  %</small></span>
+                        </div>
+                        <!-- /.info-box-content -->
+                    </div>
+                    <!-- /.info-box -->
+                </div>
+                <!-- /.col -->
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="info-box mb-3">
+                        <span class="info-box-icon bg-purple elevation-1"><i class="fas fa-poll"></i></span>
+                        <div class="info-box-content">
+                            <span class="info-box-text" th:text="#{lang.average-score}"></span>
+                            <span class="info-box-number" th:text="${averageScore}"></span>
+                        </div>
+                        <!-- /.info-box-content -->
+                    </div>
+                    <!-- /.info-box -->
+                </div>
+                <!-- /.col -->
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <canvas id="myChart1"></canvas>
+                        </div>
+                        <div class="col-md-5">
+                            <canvas id="myChart2"></canvas>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div layout:fragment="additionjs">
+
+    <script>
+        $('.select2').select2()
+    </script>
+    <script th:inline="javascript">
+        var chart1Data = /*[[${chart1Data}]]*/ null;
+        var chart1DataJson = JSON.parse(chart1Data);
+
+        var chart2Data = /*[[${chart2Data}]]*/ null;
+        var chart2DataJson = JSON.parse(chart2Data);
+    </script>
+
+    <script>
+        window.onload = function (ev) {
+            addChart1();
+            addChart2();
+        }
+
+        function addChart2() {
+            var ctx = document.getElementById('myChart2').getContext('2d');
+            window.chart1 = new Chart(ctx, {
+                type: 'pie',
+                data: chart2DataJson,
+                options: {
+                    responsive: true,
+                    title: {
+                        display: true,
+                        text: 'Valid and invalid answer sheets rate'
+                    }
+                }
+            });
+        }
+
+        function addChart1() {
+            var ctx = document.getElementById('myChart1').getContext('2d');
+            window.chart1 = new Chart(ctx, {
+                type: 'bar',
+                data: chart1DataJson,
+                options: {
+                    responsive: true,
+                    legend: {
+                        display: false
+                    },
+                    scales: {
+                        yAxes: [{
+                            scaleLabel: {
+                                display: true,
+                                labelString: "Số lượng"
+                            },
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }],
+                        xAxes: [{
+                            scaleLabel: {
+                                display: true,
+                                labelString: "Điểm"
+                            },
+                            ticks: {
+                                maxRotation: 90,
+                                minRotation: 90
+                            }
+                        }]
+                    },
+                    title: {
+                        display: true,
+                        text: 'Point distribution'
+                    }
+                }
+            });
+        }
+    </script>
+
+</div>
+
+</body>
+</html>

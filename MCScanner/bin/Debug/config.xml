@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ScannerID>{6BDD1FC6-810F-11D0-BEC7-08002BE2092F}\0004</ScannerID>
+  <ScannerName>HP LJ M227M231 (NET)</ScannerName>
+  <SavePath>D:\graduation thesis\Result\Scanned</SavePath>
+  <ScanDpi>300</ScanDpi>
+  <ScanColor>2</ScanColor>
+  <ScanADF>true</ScanADF>
+  <ScanTryFlatbed>false</ScanTryFlatbed>
+  <StartMinimized>false</StartMinimized>
+  <ShowErrors>true</ShowErrors>
+</Config>

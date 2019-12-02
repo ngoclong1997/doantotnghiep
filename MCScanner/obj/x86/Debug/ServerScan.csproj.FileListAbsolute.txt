@@ -1,0 +1,12 @@
+C:\Users\PC1\Downloads\serverScan-master\obj\x86\Debug\Interop.WIA.dll
+C:\Users\PC1\Downloads\serverScan-master\obj\x86\Debug\ServerScan.csproj.ResolveComReference.cache
+C:\Users\PC1\Downloads\serverScan-master\bin\Debug\ServerScan.exe
+C:\Users\PC1\Downloads\serverScan-master\bin\Debug\ServerScan.pdb
+C:\Users\PC1\Downloads\serverScan-master\bin\Debug\LibUsbDotNet.dll
+C:\Users\PC1\Downloads\serverScan-master\obj\x86\Debug\ServerScan.csprojResolveAssemblyReference.cache
+C:\Users\PC1\Downloads\serverScan-master\obj\x86\Debug\ServerScan.Main.resources
+C:\Users\PC1\Downloads\serverScan-master\obj\x86\Debug\ServerScan.Properties.Resources.resources
+C:\Users\PC1\Downloads\serverScan-master\obj\x86\Debug\ServerScan.SelectScanner.resources
+C:\Users\PC1\Downloads\serverScan-master\obj\x86\Debug\ServerScan.csproj.GenerateResource.Cache
+C:\Users\PC1\Downloads\serverScan-master\obj\x86\Debug\ServerScan.exe
+C:\Users\PC1\Downloads\serverScan-master\obj\x86\Debug\ServerScan.pdb

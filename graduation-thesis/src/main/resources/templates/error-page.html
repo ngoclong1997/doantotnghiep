@@ -1,0 +1,38 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html layout:decorate="~{main-layout}" xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title><span th:text="${err-message}"></span></title>
+</head>
+<body>
+
+<div layout:fragment="header">
+    <div class="col-sm-6">
+        <h1><span th:text="${err-message}"></span></h1>
+    </div>
+    <div class="col-sm-6">
+        <ol class="breadcrumb float-sm-right">
+            <li class="breadcrumb-item"><a th:href="@{/}">Trang chủ</a></li>
+            <li class="breadcrumb-item"><span th:text="${err-message}"></span></li>
+        </ol>
+    </div>
+</div>
+
+<div layout:fragment="content">
+    <div class="error-page">
+        <h2 class="headline text-warning" th:text="${code}"></h2>
+
+        <div class="error-content">
+            <h3><i class="fas fa-exclamation-triangle text-warning"></i><span th:text="${' ' + err-message}"></span></h3>
+
+            <p>
+                <span th:text="${messageDetail}"></span>
+                <br/>
+                <span>Quay lại <a th:href="@{/}">trang chủ</a></span>
+            </p>
+
+        </div>
+        <!-- /.error-content -->
+    </div>
+</div>
+</body>
+</html>

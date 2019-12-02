@@ -1,0 +1,89 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html layout:decorate="~{main-layout}" xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="#{${title}}"></title>
+</head>
+<body>
+
+<div layout:fragment="header">
+    <div class="col-sm-6">
+        <h1><span th:text="#{${title}}"></span></h1>
+    </div>
+    <div class="col-sm-6">
+        <ol class="breadcrumb float-sm-right">
+            <li class="breadcrumb-item"><a th:href="@{/}"><span th:text="#{lang.home-page}"></span></a></li>
+            <li class="breadcrumb-item"><span th:text="#{${title}}"></span></li>
+        </ol>
+    </div>
+</div>
+
+<div layout:fragment="content">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+
+
+                <!-- /.card-header -->
+                <div class="card-body">
+                    <div class="form-row">
+                        <div class="form-group col-8">
+                            <label for="username" class="control-label"><span th:text="#{lang.username}"></span>
+                            </label>
+                            <input disabled id="username" class="form-control" th:field="${user.username}"/>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-8">
+                            <label for="email" class="control-label">E-mail</label>
+                            <input disabled id="email" class="form-control" th:field="${user.email}"/>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-4">
+                            <label for="firstName" class="control-label"><span
+                                    th:text="#{lang.firstname}"></span></label>
+                            <input disabled id="firstName" class="form-control" th:field="${user.firstName}"/>
+                        </div>
+
+                        <div class="form-group col-4">
+                            <label for="lastName" class="control-label"><span
+                                    th:text="#{lang.lastname}"></span></label>
+                            <input disabled id="lastName" class="form-control" th:field="${user.lastName}"/>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-4">
+                            <label th:text="#{lang.list-of-roles}"></label>
+                            <ul>
+                                <th:block th:each="role : ${user.roles}">
+                                    <li th:text="${role.name}"></li>
+                                </th:block>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /.card-body -->
+                <div class="card-footer">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <a th:href="@{/user/profile/edit}" class="form-control btn btn-success"><span
+                                        th:text="#{lang.edit-profile}"></span></a>
+                            </div>
+                            <div class="col-2">
+                                <a th:href="@{/user/change-password}" class="form-control btn btn-primary"><span
+                                        th:text="#{lang.change-password}"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.card -->
+        </div>
+        <!-- /.col -->
+    </div>
+</div>
+</body>
+</html>

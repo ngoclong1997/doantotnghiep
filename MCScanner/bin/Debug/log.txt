@@ -1,0 +1,816 @@
+
+15/11/19 10:22:56 AM: Application started
+15/11/19 10:24:49 AM: [Error] Vui lòng chọn thư mục lưu kết quả
+15/11/19 10:25:04 AM: Application closed
+
+15/11/19 10:47:12 AM: Application started
+
+17/11/19 11:27:34 PM: Application started
+
+17/11/19 11:49:06 PM: Application started
+17/11/19 11:49:18 PM: [Error] Vui lòng chọn thư mục lưu kết quả
+17/11/19 11:49:30 PM: Configuration saved
+17/11/19 11:49:41 PM: Application closed
+
+17/11/19 11:54:22 PM: Application started
+17/11/19 11:54:23 PM: Configuration loaded
+18/11/19 12:03:40 AM: Configuration saved
+18/11/19 12:27:41 AM: Application closed
+
+18/11/19 12:36:55 AM: Application started
+18/11/19 12:36:55 AM: Configuration loaded
+18/11/19 12:38:25 AM: Finished scanning 9 files
+
+18/11/19 12:52:40 AM: Application started
+18/11/19 12:52:40 AM: Configuration loaded
+18/11/19 12:52:45 AM: Application closed
+
+18/11/19 12:54:18 AM: Application started
+18/11/19 12:54:18 AM: Configuration loaded
+18/11/19 12:54:23 AM: Finished scanning 9 files
+
+18/11/19 12:56:34 AM: Application started
+18/11/19 12:56:34 AM: Configuration loaded
+18/11/19 12:57:02 AM: Configuration saved
+18/11/19 12:57:10 AM: Configuration saved
+18/11/19 12:57:20 AM: Configuration saved
+18/11/19 12:58:02 AM: Finished scanning 9 files
+
+20/11/19 11:06:25 AM: Application started
+20/11/19 11:06:25 AM: Configuration loaded
+20/11/19 11:06:46 AM: Configuration saved
+20/11/19 11:07:23 AM: Finished scanning 9 files
+20/11/19 11:11:49 AM: Application closed
+
+21/11/19 4:53:27 PM: Application started
+21/11/19 4:53:27 PM: Configuration loaded
+21/11/19 4:53:36 PM: Application closed
+
+21/11/19 4:54:04 PM: Application started
+21/11/19 4:54:05 PM: Configuration loaded
+21/11/19 4:54:15 PM: Configuration saved
+21/11/19 4:54:17 PM: Configuration saved
+21/11/19 4:54:24 PM: Application closed
+
+21/11/19 4:56:36 PM: Application started
+21/11/19 4:56:36 PM: Configuration loaded
+21/11/19 4:57:00 PM: Starting acquisition (Normal)
+21/11/19 4:57:00 PM: Setup device handling
+21/11/19 4:57:00 PM: Setup device properties
+21/11/19 4:57:00 PM: DEBUG: document handling 1
+21/11/19 4:57:00 PM: DEBUG: feeder status 3
+21/11/19 4:57:13 PM: ADF has more pages: Yes
+21/11/19 4:57:13 PM: Setup device handling
+21/11/19 4:57:13 PM: Setup device properties
+21/11/19 4:57:13 PM: DEBUG: document handling 1
+21/11/19 4:57:13 PM: DEBUG: feeder status 3
+21/11/19 4:57:14 PM: [Error] Error HRESULT E_FAIL has been returned from a call to a COM component.
+
+21/11/19 4:59:16 PM: Application started
+21/11/19 4:59:17 PM: Configuration loaded
+21/11/19 4:59:33 PM: Starting acquisition (Normal)
+21/11/19 4:59:33 PM: Setup device handling
+21/11/19 4:59:33 PM: Setup device properties
+21/11/19 4:59:33 PM: DEBUG: document handling 1
+21/11/19 4:59:33 PM: DEBUG: feeder status 3
+21/11/19 4:59:46 PM: ADF has more pages: Yes
+21/11/19 4:59:46 PM: Setup device handling
+21/11/19 4:59:46 PM: Setup device properties
+21/11/19 4:59:46 PM: DEBUG: document handling 1
+21/11/19 4:59:46 PM: DEBUG: feeder status 3
+21/11/19 4:59:47 PM: Setup device handling
+21/11/19 4:59:47 PM: Setup device properties
+21/11/19 4:59:47 PM: DEBUG: document handling 1
+21/11/19 4:59:47 PM: DEBUG: feeder status 3
+21/11/19 4:59:48 PM: Setup device handling
+21/11/19 4:59:48 PM: Setup device properties
+21/11/19 4:59:48 PM: DEBUG: document handling 1
+21/11/19 4:59:48 PM: DEBUG: feeder status 3
+21/11/19 4:59:49 PM: Setup device handling
+21/11/19 4:59:49 PM: Setup device properties
+21/11/19 4:59:49 PM: DEBUG: document handling 1
+21/11/19 4:59:49 PM: DEBUG: feeder status 3
+21/11/19 4:59:51 PM: Setup device handling
+21/11/19 4:59:51 PM: Setup device properties
+21/11/19 4:59:51 PM: DEBUG: document handling 1
+21/11/19 4:59:51 PM: DEBUG: feeder status 3
+21/11/19 4:59:52 PM: Setup device handling
+21/11/19 4:59:52 PM: Setup device properties
+21/11/19 4:59:52 PM: DEBUG: document handling 1
+21/11/19 4:59:52 PM: DEBUG: feeder status 3
+21/11/19 4:59:53 PM: Setup device handling
+21/11/19 4:59:53 PM: Setup device properties
+21/11/19 4:59:53 PM: DEBUG: document handling 1
+21/11/19 4:59:53 PM: DEBUG: feeder status 3
+21/11/19 4:59:54 PM: Setup device handling
+21/11/19 4:59:54 PM: Setup device properties
+21/11/19 4:59:54 PM: DEBUG: document handling 1
+21/11/19 4:59:54 PM: DEBUG: feeder status 3
+21/11/19 4:59:56 PM: Setup device handling
+21/11/19 4:59:56 PM: Setup device properties
+21/11/19 4:59:56 PM: DEBUG: document handling 1
+21/11/19 4:59:56 PM: DEBUG: feeder status 3
+21/11/19 4:59:57 PM: Setup device handling
+21/11/19 4:59:57 PM: Setup device properties
+21/11/19 4:59:57 PM: DEBUG: document handling 1
+21/11/19 4:59:57 PM: DEBUG: feeder status 3
+21/11/19 4:59:58 PM: Setup device handling
+21/11/19 4:59:58 PM: Setup device properties
+21/11/19 4:59:58 PM: DEBUG: document handling 1
+21/11/19 4:59:58 PM: DEBUG: feeder status 3
+21/11/19 4:59:59 PM: Setup device handling
+21/11/19 4:59:59 PM: Setup device properties
+21/11/19 4:59:59 PM: DEBUG: document handling 1
+21/11/19 4:59:59 PM: DEBUG: feeder status 3
+21/11/19 5:00:01 PM: Setup device handling
+21/11/19 5:00:01 PM: Setup device properties
+21/11/19 5:00:01 PM: DEBUG: document handling 1
+21/11/19 5:00:01 PM: DEBUG: feeder status 3
+21/11/19 5:00:02 PM: Setup device handling
+21/11/19 5:00:02 PM: Setup device properties
+21/11/19 5:00:02 PM: DEBUG: document handling 1
+21/11/19 5:00:02 PM: DEBUG: feeder status 3
+21/11/19 5:00:03 PM: Setup device handling
+21/11/19 5:00:03 PM: Setup device properties
+21/11/19 5:00:03 PM: DEBUG: document handling 1
+21/11/19 5:00:03 PM: DEBUG: feeder status 3
+21/11/19 5:00:04 PM: Setup device handling
+21/11/19 5:00:04 PM: Setup device properties
+21/11/19 5:00:04 PM: DEBUG: document handling 1
+21/11/19 5:00:04 PM: DEBUG: feeder status 3
+21/11/19 5:00:06 PM: Setup device handling
+21/11/19 5:00:06 PM: Setup device properties
+21/11/19 5:00:06 PM: DEBUG: document handling 1
+21/11/19 5:00:06 PM: DEBUG: feeder status 3
+21/11/19 5:00:07 PM: Setup device handling
+21/11/19 5:00:07 PM: Setup device properties
+21/11/19 5:00:07 PM: DEBUG: document handling 1
+21/11/19 5:00:07 PM: DEBUG: feeder status 3
+21/11/19 5:00:08 PM: Setup device handling
+21/11/19 5:00:08 PM: Setup device properties
+21/11/19 5:00:08 PM: DEBUG: document handling 1
+21/11/19 5:00:08 PM: DEBUG: feeder status 3
+21/11/19 5:00:09 PM: Setup device handling
+21/11/19 5:00:09 PM: Setup device properties
+21/11/19 5:00:09 PM: DEBUG: document handling 1
+21/11/19 5:00:09 PM: DEBUG: feeder status 3
+21/11/19 5:00:11 PM: Setup device handling
+21/11/19 5:00:11 PM: Setup device properties
+21/11/19 5:00:11 PM: DEBUG: document handling 1
+21/11/19 5:00:11 PM: DEBUG: feeder status 3
+21/11/19 5:00:12 PM: Setup device handling
+21/11/19 5:00:12 PM: Setup device properties
+21/11/19 5:00:12 PM: DEBUG: document handling 1
+21/11/19 5:00:12 PM: DEBUG: feeder status 3
+21/11/19 5:00:13 PM: Setup device handling
+21/11/19 5:00:13 PM: Setup device properties
+21/11/19 5:00:13 PM: DEBUG: document handling 1
+21/11/19 5:00:13 PM: DEBUG: feeder status 3
+21/11/19 5:00:14 PM: Setup device handling
+21/11/19 5:00:14 PM: Setup device properties
+21/11/19 5:00:14 PM: DEBUG: document handling 1
+21/11/19 5:00:14 PM: DEBUG: feeder status 3
+21/11/19 5:00:16 PM: Setup device handling
+21/11/19 5:00:16 PM: Setup device properties
+21/11/19 5:00:16 PM: DEBUG: document handling 1
+21/11/19 5:00:16 PM: DEBUG: feeder status 3
+21/11/19 5:00:17 PM: Setup device handling
+21/11/19 5:00:17 PM: Setup device properties
+21/11/19 5:00:17 PM: DEBUG: document handling 1
+21/11/19 5:00:17 PM: DEBUG: feeder status 3
+21/11/19 5:00:18 PM: Setup device handling
+21/11/19 5:00:18 PM: Setup device properties
+21/11/19 5:00:18 PM: DEBUG: document handling 1
+21/11/19 5:00:18 PM: DEBUG: feeder status 3
+21/11/19 5:00:20 PM: Setup device handling
+21/11/19 5:00:20 PM: Setup device properties
+21/11/19 5:00:20 PM: DEBUG: document handling 1
+21/11/19 5:00:20 PM: DEBUG: feeder status 3
+21/11/19 5:00:21 PM: Setup device handling
+21/11/19 5:00:21 PM: Setup device properties
+21/11/19 5:00:21 PM: DEBUG: document handling 1
+21/11/19 5:00:21 PM: DEBUG: feeder status 3
+21/11/19 5:00:22 PM: Setup device handling
+21/11/19 5:00:22 PM: Setup device properties
+21/11/19 5:00:22 PM: DEBUG: document handling 1
+21/11/19 5:00:22 PM: DEBUG: feeder status 3
+21/11/19 5:00:23 PM: Setup device handling
+21/11/19 5:00:23 PM: Setup device properties
+21/11/19 5:00:23 PM: DEBUG: document handling 1
+21/11/19 5:00:23 PM: DEBUG: feeder status 3
+21/11/19 5:00:24 PM: Paper feed empty
+21/11/19 5:00:44 PM: Application closed
+
+21/11/19 5:04:41 PM: Application started
+21/11/19 5:04:41 PM: Configuration loaded
+21/11/19 5:05:17 PM: Starting acquisition (Normal)
+21/11/19 5:05:17 PM: Setup device handling
+21/11/19 5:05:17 PM: Setup device properties
+21/11/19 5:05:17 PM: DEBUG: document handling 1
+21/11/19 5:05:17 PM: DEBUG: feeder status 3
+21/11/19 5:05:30 PM: ADF has more pages: Yes
+21/11/19 5:05:30 PM: Setup device handling
+21/11/19 5:05:30 PM: Setup device properties
+21/11/19 5:05:30 PM: DEBUG: document handling 1
+21/11/19 5:05:30 PM: DEBUG: feeder status 3
+21/11/19 5:05:31 PM: Setup device handling
+21/11/19 5:05:31 PM: Setup device properties
+21/11/19 5:05:31 PM: DEBUG: document handling 1
+21/11/19 5:05:31 PM: DEBUG: feeder status 3
+21/11/19 5:05:33 PM: Setup device handling
+21/11/19 5:05:33 PM: Setup device properties
+21/11/19 5:05:33 PM: DEBUG: document handling 1
+21/11/19 5:05:33 PM: DEBUG: feeder status 3
+21/11/19 5:05:34 PM: Setup device handling
+21/11/19 5:05:34 PM: Setup device properties
+21/11/19 5:05:34 PM: DEBUG: document handling 1
+21/11/19 5:05:34 PM: DEBUG: feeder status 3
+21/11/19 5:05:35 PM: Setup device handling
+21/11/19 5:05:35 PM: Setup device properties
+21/11/19 5:05:35 PM: DEBUG: document handling 1
+21/11/19 5:05:35 PM: DEBUG: feeder status 3
+21/11/19 5:05:37 PM: Setup device handling
+21/11/19 5:05:37 PM: Setup device properties
+21/11/19 5:05:37 PM: DEBUG: document handling 1
+21/11/19 5:05:37 PM: DEBUG: feeder status 3
+21/11/19 5:05:38 PM: Setup device handling
+21/11/19 5:05:38 PM: Setup device properties
+21/11/19 5:05:38 PM: DEBUG: document handling 1
+21/11/19 5:05:38 PM: DEBUG: feeder status 3
+21/11/19 5:05:39 PM: Setup device handling
+21/11/19 5:05:39 PM: Setup device properties
+21/11/19 5:05:39 PM: DEBUG: document handling 1
+21/11/19 5:05:39 PM: DEBUG: feeder status 3
+21/11/19 5:05:40 PM: Setup device handling
+21/11/19 5:05:40 PM: Setup device properties
+21/11/19 5:05:40 PM: DEBUG: document handling 1
+21/11/19 5:05:41 PM: DEBUG: feeder status 3
+21/11/19 5:05:42 PM: Setup device handling
+21/11/19 5:05:42 PM: Setup device properties
+21/11/19 5:05:42 PM: DEBUG: document handling 1
+21/11/19 5:05:42 PM: DEBUG: feeder status 3
+21/11/19 5:05:43 PM: Setup device handling
+21/11/19 5:05:43 PM: Setup device properties
+21/11/19 5:05:43 PM: DEBUG: document handling 1
+21/11/19 5:05:43 PM: DEBUG: feeder status 3
+21/11/19 5:05:44 PM: Setup device handling
+21/11/19 5:05:44 PM: Setup device properties
+21/11/19 5:05:44 PM: DEBUG: document handling 1
+21/11/19 5:05:44 PM: DEBUG: feeder status 3
+21/11/19 5:05:46 PM: Setup device handling
+21/11/19 5:05:46 PM: Setup device properties
+21/11/19 5:05:46 PM: DEBUG: document handling 1
+21/11/19 5:05:46 PM: DEBUG: feeder status 3
+21/11/19 5:05:47 PM: Setup device handling
+21/11/19 5:05:47 PM: Setup device properties
+21/11/19 5:05:47 PM: DEBUG: document handling 1
+21/11/19 5:05:47 PM: DEBUG: feeder status 3
+21/11/19 5:05:48 PM: Setup device handling
+21/11/19 5:05:48 PM: Setup device properties
+21/11/19 5:05:48 PM: DEBUG: document handling 1
+21/11/19 5:05:48 PM: DEBUG: feeder status 3
+21/11/19 5:05:50 PM: Setup device handling
+21/11/19 5:05:50 PM: Setup device properties
+21/11/19 5:05:50 PM: DEBUG: document handling 1
+21/11/19 5:05:50 PM: DEBUG: feeder status 3
+21/11/19 5:05:51 PM: Setup device handling
+21/11/19 5:05:51 PM: Setup device properties
+21/11/19 5:05:51 PM: DEBUG: document handling 1
+21/11/19 5:05:51 PM: DEBUG: feeder status 3
+21/11/19 5:05:52 PM: Setup device handling
+21/11/19 5:05:52 PM: Setup device properties
+21/11/19 5:05:52 PM: DEBUG: document handling 1
+21/11/19 5:05:52 PM: DEBUG: feeder status 3
+21/11/19 5:05:53 PM: Setup device handling
+21/11/19 5:05:54 PM: Setup device properties
+21/11/19 5:05:54 PM: DEBUG: document handling 1
+21/11/19 5:05:54 PM: DEBUG: feeder status 3
+21/11/19 5:05:55 PM: Setup device handling
+21/11/19 5:05:55 PM: Setup device properties
+21/11/19 5:05:55 PM: DEBUG: document handling 1
+21/11/19 5:05:55 PM: DEBUG: feeder status 3
+21/11/19 5:05:56 PM: Setup device handling
+21/11/19 5:05:56 PM: Setup device properties
+21/11/19 5:05:56 PM: DEBUG: document handling 1
+21/11/19 5:05:56 PM: DEBUG: feeder status 3
+21/11/19 5:05:57 PM: Setup device handling
+21/11/19 5:05:57 PM: Setup device properties
+21/11/19 5:05:58 PM: DEBUG: document handling 1
+21/11/19 5:05:58 PM: DEBUG: feeder status 3
+21/11/19 5:05:59 PM: Setup device handling
+21/11/19 5:05:59 PM: Setup device properties
+21/11/19 5:05:59 PM: DEBUG: document handling 1
+21/11/19 5:05:59 PM: DEBUG: feeder status 3
+21/11/19 5:06:00 PM: Setup device handling
+21/11/19 5:06:00 PM: Setup device properties
+21/11/19 5:06:00 PM: DEBUG: document handling 1
+21/11/19 5:06:00 PM: DEBUG: feeder status 3
+21/11/19 5:06:02 PM: Setup device handling
+21/11/19 5:06:02 PM: Setup device properties
+21/11/19 5:06:02 PM: DEBUG: document handling 1
+21/11/19 5:06:02 PM: DEBUG: feeder status 3
+21/11/19 5:06:03 PM: Setup device handling
+21/11/19 5:06:03 PM: Setup device properties
+21/11/19 5:06:03 PM: DEBUG: document handling 1
+21/11/19 5:06:03 PM: DEBUG: feeder status 3
+21/11/19 5:06:04 PM: Setup device handling
+21/11/19 5:06:04 PM: Setup device properties
+21/11/19 5:06:04 PM: DEBUG: document handling 1
+21/11/19 5:06:04 PM: DEBUG: feeder status 3
+21/11/19 5:06:05 PM: Setup device handling
+21/11/19 5:06:05 PM: Setup device properties
+21/11/19 5:06:05 PM: DEBUG: document handling 1
+21/11/19 5:06:05 PM: DEBUG: feeder status 3
+21/11/19 5:06:07 PM: Setup device handling
+21/11/19 5:06:07 PM: Setup device properties
+21/11/19 5:06:07 PM: DEBUG: document handling 1
+21/11/19 5:06:07 PM: DEBUG: feeder status 3
+21/11/19 5:06:07 PM: Paper feed empty
+
+21/11/19 5:11:14 PM: Application started
+21/11/19 5:11:14 PM: Configuration loaded
+21/11/19 5:11:32 PM: Starting acquisition (Normal)
+21/11/19 5:11:32 PM: Setup device handling
+21/11/19 5:11:32 PM: Setup device properties
+21/11/19 5:11:32 PM: DEBUG: document handling 1
+21/11/19 5:11:32 PM: DEBUG: feeder status 3
+21/11/19 5:11:45 PM: ADF has more pages: Yes
+21/11/19 5:11:45 PM: Setup device handling
+21/11/19 5:11:45 PM: Setup device properties
+21/11/19 5:11:45 PM: DEBUG: document handling 1
+21/11/19 5:11:45 PM: DEBUG: feeder status 3
+21/11/19 5:11:47 PM: [Error] Error HRESULT E_FAIL has been returned from a call to a COM component.
+
+21/11/19 5:12:49 PM: Application started
+21/11/19 5:12:49 PM: Configuration loaded
+21/11/19 5:12:57 PM: Starting acquisition (Normal)
+21/11/19 5:12:57 PM: Setup device handling
+21/11/19 5:12:57 PM: Setup device properties
+21/11/19 5:12:58 PM: DEBUG: document handling 1
+21/11/19 5:12:58 PM: DEBUG: feeder status 3
+21/11/19 5:13:10 PM: ADF has more pages: Yes
+21/11/19 5:13:10 PM: Setup device handling
+21/11/19 5:13:10 PM: Setup device properties
+21/11/19 5:13:10 PM: DEBUG: document handling 1
+21/11/19 5:13:10 PM: DEBUG: feeder status 3
+21/11/19 5:13:11 PM: Setup device handling
+21/11/19 5:13:11 PM: Setup device properties
+21/11/19 5:13:11 PM: DEBUG: document handling 1
+21/11/19 5:13:11 PM: DEBUG: feeder status 3
+21/11/19 5:13:12 PM: Setup device handling
+21/11/19 5:13:12 PM: Setup device properties
+21/11/19 5:13:12 PM: DEBUG: document handling 1
+21/11/19 5:13:12 PM: DEBUG: feeder status 3
+21/11/19 5:13:14 PM: Setup device handling
+21/11/19 5:13:14 PM: Setup device properties
+21/11/19 5:13:14 PM: DEBUG: document handling 1
+21/11/19 5:13:14 PM: DEBUG: feeder status 3
+21/11/19 5:13:15 PM: Setup device handling
+21/11/19 5:13:15 PM: Setup device properties
+21/11/19 5:13:15 PM: DEBUG: document handling 1
+21/11/19 5:13:15 PM: DEBUG: feeder status 3
+21/11/19 5:13:16 PM: Setup device handling
+21/11/19 5:13:16 PM: Setup device properties
+21/11/19 5:13:16 PM: DEBUG: document handling 1
+21/11/19 5:13:16 PM: DEBUG: feeder status 3
+21/11/19 5:13:18 PM: Setup device handling
+21/11/19 5:13:18 PM: Setup device properties
+21/11/19 5:13:18 PM: DEBUG: document handling 1
+21/11/19 5:13:18 PM: DEBUG: feeder status 3
+21/11/19 5:13:19 PM: Setup device handling
+21/11/19 5:13:19 PM: Setup device properties
+21/11/19 5:13:19 PM: DEBUG: document handling 1
+21/11/19 5:13:19 PM: DEBUG: feeder status 3
+21/11/19 5:13:20 PM: Setup device handling
+21/11/19 5:13:20 PM: Setup device properties
+21/11/19 5:13:20 PM: DEBUG: document handling 1
+21/11/19 5:13:20 PM: DEBUG: feeder status 3
+21/11/19 5:13:21 PM: Setup device handling
+21/11/19 5:13:21 PM: Setup device properties
+21/11/19 5:13:21 PM: DEBUG: document handling 1
+21/11/19 5:13:21 PM: DEBUG: feeder status 3
+21/11/19 5:13:23 PM: Setup device handling
+21/11/19 5:13:23 PM: Setup device properties
+21/11/19 5:13:23 PM: DEBUG: document handling 1
+21/11/19 5:13:23 PM: DEBUG: feeder status 3
+21/11/19 5:13:24 PM: Setup device handling
+21/11/19 5:13:24 PM: Setup device properties
+21/11/19 5:13:24 PM: DEBUG: document handling 1
+21/11/19 5:13:24 PM: DEBUG: feeder status 3
+21/11/19 5:13:25 PM: Setup device handling
+21/11/19 5:13:25 PM: Setup device properties
+21/11/19 5:13:25 PM: DEBUG: document handling 1
+21/11/19 5:13:25 PM: DEBUG: feeder status 3
+21/11/19 5:13:27 PM: Setup device handling
+21/11/19 5:13:27 PM: Setup device properties
+21/11/19 5:13:27 PM: DEBUG: document handling 1
+21/11/19 5:13:27 PM: DEBUG: feeder status 3
+21/11/19 5:13:28 PM: Setup device handling
+21/11/19 5:13:28 PM: Setup device properties
+21/11/19 5:13:28 PM: DEBUG: document handling 1
+21/11/19 5:13:28 PM: DEBUG: feeder status 3
+21/11/19 5:13:29 PM: Setup device handling
+21/11/19 5:13:29 PM: Setup device properties
+21/11/19 5:13:29 PM: DEBUG: document handling 1
+21/11/19 5:13:29 PM: DEBUG: feeder status 3
+21/11/19 5:13:31 PM: Setup device handling
+21/11/19 5:13:31 PM: Setup device properties
+21/11/19 5:13:31 PM: DEBUG: document handling 1
+21/11/19 5:13:31 PM: DEBUG: feeder status 3
+21/11/19 5:13:32 PM: Setup device handling
+21/11/19 5:13:32 PM: Setup device properties
+21/11/19 5:13:32 PM: DEBUG: document handling 1
+21/11/19 5:13:32 PM: DEBUG: feeder status 3
+21/11/19 5:13:33 PM: Setup device handling
+21/11/19 5:13:33 PM: Setup device properties
+21/11/19 5:13:33 PM: DEBUG: document handling 1
+21/11/19 5:13:33 PM: DEBUG: feeder status 3
+21/11/19 5:13:34 PM: Setup device handling
+21/11/19 5:13:34 PM: Setup device properties
+21/11/19 5:13:34 PM: DEBUG: document handling 1
+21/11/19 5:13:34 PM: DEBUG: feeder status 3
+21/11/19 5:13:36 PM: Setup device handling
+21/11/19 5:13:36 PM: Setup device properties
+21/11/19 5:13:36 PM: DEBUG: document handling 1
+21/11/19 5:13:36 PM: DEBUG: feeder status 3
+21/11/19 5:13:37 PM: Setup device handling
+21/11/19 5:13:37 PM: Setup device properties
+21/11/19 5:13:37 PM: DEBUG: document handling 1
+21/11/19 5:13:37 PM: DEBUG: feeder status 3
+21/11/19 5:13:38 PM: Setup device handling
+21/11/19 5:13:38 PM: Setup device properties
+21/11/19 5:13:38 PM: DEBUG: document handling 1
+21/11/19 5:13:38 PM: DEBUG: feeder status 3
+21/11/19 5:13:40 PM: Setup device handling
+21/11/19 5:13:40 PM: Setup device properties
+21/11/19 5:13:40 PM: DEBUG: document handling 1
+21/11/19 5:13:40 PM: DEBUG: feeder status 3
+21/11/19 5:13:41 PM: Setup device handling
+21/11/19 5:13:41 PM: Setup device properties
+21/11/19 5:13:41 PM: DEBUG: document handling 1
+21/11/19 5:13:41 PM: DEBUG: feeder status 3
+21/11/19 5:13:42 PM: Setup device handling
+21/11/19 5:13:42 PM: Setup device properties
+21/11/19 5:13:42 PM: DEBUG: document handling 1
+21/11/19 5:13:42 PM: DEBUG: feeder status 3
+21/11/19 5:13:44 PM: Setup device handling
+21/11/19 5:13:44 PM: Setup device properties
+21/11/19 5:13:44 PM: DEBUG: document handling 1
+21/11/19 5:13:44 PM: DEBUG: feeder status 3
+21/11/19 5:13:45 PM: Setup device handling
+21/11/19 5:13:45 PM: Setup device properties
+21/11/19 5:13:45 PM: DEBUG: document handling 1
+21/11/19 5:13:45 PM: DEBUG: feeder status 3
+21/11/19 5:13:46 PM: Setup device handling
+21/11/19 5:13:46 PM: Setup device properties
+21/11/19 5:13:46 PM: DEBUG: document handling 1
+21/11/19 5:13:46 PM: DEBUG: feeder status 3
+21/11/19 5:13:47 PM: Paper feed empty
+
+21/11/19 5:14:22 PM: Application started
+21/11/19 5:14:22 PM: Configuration loaded
+21/11/19 5:15:14 PM: Configuration saved
+21/11/19 5:15:26 PM: Starting acquisition (Normal)
+21/11/19 5:15:26 PM: Setup device handling
+21/11/19 5:15:26 PM: Setup device properties
+21/11/19 5:15:26 PM: DEBUG: document handling 1
+21/11/19 5:15:26 PM: DEBUG: feeder status 3
+21/11/19 5:15:42 PM: ADF has more pages: Yes
+21/11/19 5:15:42 PM: Setup device handling
+21/11/19 5:15:42 PM: Setup device properties
+21/11/19 5:15:42 PM: DEBUG: document handling 1
+21/11/19 5:15:42 PM: DEBUG: feeder status 3
+21/11/19 5:15:48 PM: ADF has more pages: Yes
+21/11/19 5:15:48 PM: Setup device handling
+21/11/19 5:15:48 PM: Setup device properties
+21/11/19 5:15:48 PM: DEBUG: document handling 1
+21/11/19 5:15:48 PM: DEBUG: feeder status 3
+21/11/19 5:15:54 PM: ADF has more pages: Yes
+21/11/19 5:15:54 PM: Setup device handling
+21/11/19 5:15:54 PM: Setup device properties
+21/11/19 5:15:54 PM: DEBUG: document handling 1
+21/11/19 5:15:54 PM: DEBUG: feeder status 3
+21/11/19 5:16:00 PM: ADF has more pages: Yes
+21/11/19 5:16:00 PM: Setup device handling
+21/11/19 5:16:00 PM: Setup device properties
+21/11/19 5:16:00 PM: DEBUG: document handling 1
+21/11/19 5:16:00 PM: DEBUG: feeder status 3
+21/11/19 5:16:06 PM: ADF has more pages: Yes
+21/11/19 5:16:06 PM: Setup device handling
+21/11/19 5:16:06 PM: Setup device properties
+21/11/19 5:16:06 PM: DEBUG: document handling 1
+21/11/19 5:16:06 PM: DEBUG: feeder status 3
+21/11/19 5:16:12 PM: ADF has more pages: Yes
+21/11/19 5:16:12 PM: Setup device handling
+21/11/19 5:16:12 PM: Setup device properties
+21/11/19 5:16:12 PM: DEBUG: document handling 1
+21/11/19 5:16:12 PM: DEBUG: feeder status 3
+21/11/19 5:16:18 PM: ADF has more pages: Yes
+21/11/19 5:16:18 PM: Setup device handling
+21/11/19 5:16:18 PM: Setup device properties
+21/11/19 5:16:18 PM: DEBUG: document handling 1
+21/11/19 5:16:18 PM: DEBUG: feeder status 3
+21/11/19 5:16:23 PM: ADF has more pages: Yes
+21/11/19 5:16:23 PM: Setup device handling
+21/11/19 5:16:23 PM: Setup device properties
+21/11/19 5:16:23 PM: DEBUG: document handling 1
+21/11/19 5:16:23 PM: DEBUG: feeder status 3
+21/11/19 5:16:29 PM: ADF has more pages: Yes
+21/11/19 5:16:29 PM: Setup device handling
+21/11/19 5:16:29 PM: Setup device properties
+21/11/19 5:16:29 PM: DEBUG: document handling 1
+21/11/19 5:16:29 PM: DEBUG: feeder status 3
+21/11/19 5:16:30 PM: Paper feed empty
+21/11/19 5:17:00 PM: Finished scanning 9 files
+21/11/19 5:17:08 PM: Application closed
+
+21/11/19 5:18:44 PM: Application started
+21/11/19 5:18:44 PM: Configuration loaded
+21/11/19 5:18:51 PM: Application closed
+
+21/11/19 5:29:18 PM: Application started
+21/11/19 5:29:18 PM: Configuration loaded
+21/11/19 5:29:28 PM: Configuration saved
+21/11/19 5:29:31 PM: Configuration saved
+21/11/19 5:29:35 PM: Application closed
+
+21/11/19 5:30:18 PM: Application started
+21/11/19 5:30:18 PM: Configuration loaded
+21/11/19 5:31:00 PM: Starting acquisition (Normal)
+21/11/19 5:31:00 PM: Setup device handling
+21/11/19 5:31:00 PM: Setup device properties
+21/11/19 5:31:00 PM: DEBUG: document handling 1
+21/11/19 5:31:00 PM: DEBUG: feeder status 3
+21/11/19 5:31:16 PM: ADF has more pages: Yes
+21/11/19 5:31:16 PM: Setup device handling
+21/11/19 5:31:16 PM: Setup device properties
+21/11/19 5:31:16 PM: DEBUG: document handling 1
+21/11/19 5:31:16 PM: DEBUG: feeder status 3
+21/11/19 5:31:22 PM: ADF has more pages: Yes
+21/11/19 5:31:22 PM: Setup device handling
+21/11/19 5:31:22 PM: Setup device properties
+21/11/19 5:31:22 PM: DEBUG: document handling 1
+21/11/19 5:31:22 PM: DEBUG: feeder status 3
+21/11/19 5:31:28 PM: ADF has more pages: Yes
+21/11/19 5:31:28 PM: Setup device handling
+21/11/19 5:31:28 PM: Setup device properties
+21/11/19 5:31:28 PM: DEBUG: document handling 1
+21/11/19 5:31:28 PM: DEBUG: feeder status 3
+21/11/19 5:31:34 PM: ADF has more pages: Yes
+21/11/19 5:31:34 PM: Setup device handling
+21/11/19 5:31:34 PM: Setup device properties
+21/11/19 5:31:34 PM: DEBUG: document handling 1
+21/11/19 5:31:34 PM: DEBUG: feeder status 3
+21/11/19 5:31:40 PM: ADF has more pages: Yes
+21/11/19 5:31:40 PM: Setup device handling
+21/11/19 5:31:40 PM: Setup device properties
+21/11/19 5:31:40 PM: DEBUG: document handling 1
+21/11/19 5:31:40 PM: DEBUG: feeder status 3
+21/11/19 5:31:46 PM: ADF has more pages: Yes
+21/11/19 5:31:46 PM: Setup device handling
+21/11/19 5:31:46 PM: Setup device properties
+21/11/19 5:31:46 PM: DEBUG: document handling 1
+21/11/19 5:31:46 PM: DEBUG: feeder status 3
+21/11/19 5:31:52 PM: ADF has more pages: Yes
+21/11/19 5:31:52 PM: Setup device handling
+21/11/19 5:31:52 PM: Setup device properties
+21/11/19 5:31:52 PM: DEBUG: document handling 1
+21/11/19 5:31:52 PM: DEBUG: feeder status 3
+21/11/19 5:31:58 PM: ADF has more pages: Yes
+21/11/19 5:31:58 PM: Setup device handling
+21/11/19 5:31:58 PM: Setup device properties
+21/11/19 5:31:58 PM: DEBUG: document handling 1
+21/11/19 5:31:58 PM: DEBUG: feeder status 3
+21/11/19 5:32:04 PM: ADF has more pages: Yes
+21/11/19 5:32:04 PM: Setup device handling
+21/11/19 5:32:05 PM: Setup device properties
+21/11/19 5:32:05 PM: DEBUG: document handling 1
+21/11/19 5:32:05 PM: DEBUG: feeder status 3
+21/11/19 5:32:05 PM: Paper feed empty
+21/11/19 5:32:13 PM: Application closed
+
+21/11/19 5:34:02 PM: Application started
+21/11/19 5:34:02 PM: Configuration loaded
+21/11/19 5:34:12 PM: Configuration saved
+21/11/19 5:35:08 PM: Configuration saved
+21/11/19 5:35:17 PM: Starting acquisition (Normal)
+21/11/19 5:35:17 PM: Setup device handling
+21/11/19 5:35:17 PM: Setup device properties
+21/11/19 5:35:17 PM: DEBUG: document handling 1
+21/11/19 5:35:17 PM: DEBUG: feeder status 3
+21/11/19 5:35:32 PM: ADF has more pages: Yes
+21/11/19 5:35:32 PM: Setup device handling
+21/11/19 5:35:32 PM: Setup device properties
+21/11/19 5:35:32 PM: DEBUG: document handling 1
+21/11/19 5:35:32 PM: DEBUG: feeder status 3
+21/11/19 5:35:36 PM: ADF has more pages: Yes
+21/11/19 5:35:36 PM: Setup device handling
+21/11/19 5:35:36 PM: Setup device properties
+21/11/19 5:35:36 PM: DEBUG: document handling 1
+21/11/19 5:35:36 PM: DEBUG: feeder status 3
+21/11/19 5:35:40 PM: ADF has more pages: Yes
+21/11/19 5:35:40 PM: Setup device handling
+21/11/19 5:35:41 PM: Setup device properties
+21/11/19 5:35:41 PM: DEBUG: document handling 1
+21/11/19 5:35:41 PM: DEBUG: feeder status 3
+21/11/19 5:35:45 PM: ADF has more pages: Yes
+21/11/19 5:35:45 PM: Setup device handling
+21/11/19 5:35:45 PM: Setup device properties
+21/11/19 5:35:45 PM: DEBUG: document handling 1
+21/11/19 5:35:45 PM: DEBUG: feeder status 3
+21/11/19 5:35:50 PM: ADF has more pages: Yes
+21/11/19 5:35:50 PM: Setup device handling
+21/11/19 5:35:50 PM: Setup device properties
+21/11/19 5:35:50 PM: DEBUG: document handling 1
+21/11/19 5:35:50 PM: DEBUG: feeder status 3
+21/11/19 5:35:55 PM: ADF has more pages: Yes
+21/11/19 5:35:55 PM: Setup device handling
+21/11/19 5:35:55 PM: Setup device properties
+21/11/19 5:35:55 PM: DEBUG: document handling 1
+21/11/19 5:35:55 PM: DEBUG: feeder status 3
+21/11/19 5:35:59 PM: ADF has more pages: Yes
+21/11/19 5:36:00 PM: Setup device handling
+21/11/19 5:36:00 PM: Setup device properties
+21/11/19 5:36:00 PM: DEBUG: document handling 1
+21/11/19 5:36:00 PM: DEBUG: feeder status 3
+21/11/19 5:36:05 PM: ADF has more pages: Yes
+21/11/19 5:36:05 PM: Setup device handling
+21/11/19 5:36:05 PM: Setup device properties
+21/11/19 5:36:05 PM: DEBUG: document handling 1
+21/11/19 5:36:05 PM: DEBUG: feeder status 3
+21/11/19 5:36:10 PM: ADF has more pages: Yes
+21/11/19 5:36:10 PM: Setup device handling
+21/11/19 5:36:10 PM: Setup device properties
+21/11/19 5:36:10 PM: DEBUG: document handling 1
+21/11/19 5:36:10 PM: DEBUG: feeder status 3
+21/11/19 5:36:10 PM: Paper feed empty
+21/11/19 5:36:24 PM: Application closed
+
+21/11/19 5:38:13 PM: Application started
+21/11/19 5:38:13 PM: Configuration loaded
+21/11/19 5:39:44 PM: Configuration saved
+21/11/19 5:39:53 PM: Starting acquisition (Normal)
+21/11/19 5:39:53 PM: Setup device handling
+21/11/19 5:39:53 PM: Setup device properties
+21/11/19 5:39:53 PM: DEBUG: document handling 1
+21/11/19 5:39:53 PM: DEBUG: feeder status 3
+21/11/19 5:40:10 PM: ADF has more pages: Yes
+21/11/19 5:40:10 PM: Setup device handling
+21/11/19 5:40:10 PM: Setup device properties
+21/11/19 5:40:10 PM: DEBUG: document handling 1
+21/11/19 5:40:11 PM: DEBUG: feeder status 3
+21/11/19 5:40:17 PM: ADF has more pages: Yes
+21/11/19 5:40:17 PM: Setup device handling
+21/11/19 5:40:17 PM: Setup device properties
+21/11/19 5:40:17 PM: DEBUG: document handling 1
+21/11/19 5:40:17 PM: DEBUG: feeder status 3
+21/11/19 5:40:23 PM: ADF has more pages: Yes
+21/11/19 5:40:24 PM: Setup device handling
+21/11/19 5:40:24 PM: Setup device properties
+21/11/19 5:40:24 PM: DEBUG: document handling 1
+21/11/19 5:40:24 PM: DEBUG: feeder status 3
+21/11/19 5:40:30 PM: ADF has more pages: Yes
+21/11/19 5:40:30 PM: Setup device handling
+21/11/19 5:40:30 PM: Setup device properties
+21/11/19 5:40:31 PM: DEBUG: document handling 1
+21/11/19 5:40:31 PM: DEBUG: feeder status 3
+21/11/19 5:40:37 PM: ADF has more pages: Yes
+21/11/19 5:40:37 PM: Setup device handling
+21/11/19 5:40:37 PM: Setup device properties
+21/11/19 5:40:37 PM: DEBUG: document handling 1
+21/11/19 5:40:37 PM: DEBUG: feeder status 3
+21/11/19 5:40:44 PM: ADF has more pages: Yes
+21/11/19 5:40:44 PM: Setup device handling
+21/11/19 5:40:44 PM: Setup device properties
+21/11/19 5:40:44 PM: DEBUG: document handling 1
+21/11/19 5:40:44 PM: DEBUG: feeder status 3
+21/11/19 5:40:50 PM: ADF has more pages: Yes
+21/11/19 5:40:50 PM: Setup device handling
+21/11/19 5:40:50 PM: Setup device properties
+21/11/19 5:40:51 PM: DEBUG: document handling 1
+21/11/19 5:40:51 PM: DEBUG: feeder status 3
+21/11/19 5:40:58 PM: ADF has more pages: Yes
+21/11/19 5:40:58 PM: Setup device handling
+21/11/19 5:40:58 PM: Setup device properties
+21/11/19 5:40:58 PM: DEBUG: document handling 1
+21/11/19 5:40:58 PM: DEBUG: feeder status 3
+21/11/19 5:41:06 PM: ADF has more pages: Yes
+21/11/19 5:41:06 PM: Setup device handling
+21/11/19 5:41:06 PM: Setup device properties
+21/11/19 5:41:07 PM: DEBUG: document handling 1
+21/11/19 5:41:07 PM: DEBUG: feeder status 3
+21/11/19 5:41:07 PM: Paper feed empty
+21/11/19 5:41:19 PM: Finished scanning 9 files
+21/11/19 5:41:30 PM: Application closed
+
+22/11/19 12:46:17 AM: Application started
+22/11/19 12:46:17 AM: Configuration loaded
+22/11/19 12:46:28 AM: Application closed
+
+22/11/19 12:50:08 AM: Application started
+22/11/19 12:50:08 AM: Configuration loaded
+22/11/19 12:50:14 AM: Finished scanning 9 files
+
+22/11/19 12:51:43 AM: Application started
+22/11/19 12:51:43 AM: Configuration loaded
+22/11/19 12:51:55 AM: Finished scanning 9 files
+22/11/19 12:52:24 AM: Application closed
+
+22/11/19 12:55:00 AM: Application started
+22/11/19 12:55:00 AM: Configuration loaded
+22/11/19 12:55:06 AM: Finished scanning 9 files
+22/11/19 12:55:58 AM: Application closed
+
+26/11/19 11:17:19 AM: Application started
+26/11/19 11:17:19 AM: Configuration loaded
+26/11/19 11:17:29 AM: Application closed
+
+26/11/19 11:22:43 AM: Application started
+26/11/19 11:22:43 AM: Configuration loaded
+26/11/19 11:23:29 AM: Application closed
+
+27/11/19 5:25:41 PM: Application started
+27/11/19 5:25:41 PM: Configuration loaded
+27/11/19 5:25:51 PM: Configuration saved
+27/11/19 5:25:52 PM: Configuration saved
+27/11/19 5:25:59 PM: Application closed
+
+27/11/19 5:27:22 PM: Application started
+27/11/19 5:27:22 PM: Configuration loaded
+
+27/11/19 5:30:57 PM: Application started
+27/11/19 5:30:57 PM: Configuration loaded
+27/11/19 5:31:00 PM: Application closed
+
+27/11/19 5:36:38 PM: Application started
+27/11/19 5:36:38 PM: Configuration loaded
+27/11/19 5:36:50 PM: Configuration saved
+27/11/19 5:36:55 PM: Application closed
+
+27/11/19 5:43:49 PM: Application started
+27/11/19 5:43:50 PM: Configuration loaded
+27/11/19 5:43:55 PM: Configuration saved
+27/11/19 5:43:59 PM: Application closed
+
+27/11/19 5:58:05 PM: Application started
+27/11/19 5:58:06 PM: Configuration loaded
+27/11/19 5:58:27 PM: Application closed
+
+27/11/19 6:00:28 PM: Application started
+27/11/19 6:00:29 PM: Configuration loaded
+27/11/19 6:00:37 PM: Application closed
+
+27/11/19 6:01:01 PM: Application started
+27/11/19 6:01:01 PM: Configuration loaded
+27/11/19 6:01:19 PM: Starting acquisition (Normal)
+27/11/19 6:01:19 PM: Setup device handling
+27/11/19 6:01:19 PM: Setup device properties
+27/11/19 6:01:19 PM: DEBUG: document handling 1
+27/11/19 6:01:19 PM: DEBUG: feeder status 3
+27/11/19 6:01:38 PM: ADF has more pages: Yes
+27/11/19 6:01:38 PM: Setup device handling
+27/11/19 6:01:38 PM: Setup device properties
+27/11/19 6:01:38 PM: DEBUG: document handling 1
+27/11/19 6:01:38 PM: DEBUG: feeder status 3
+27/11/19 6:01:46 PM: ADF has more pages: Yes
+27/11/19 6:01:46 PM: Setup device handling
+27/11/19 6:01:46 PM: Setup device properties
+27/11/19 6:01:46 PM: DEBUG: document handling 1
+27/11/19 6:01:46 PM: DEBUG: feeder status 3
+27/11/19 6:01:55 PM: ADF has more pages: Yes
+27/11/19 6:01:55 PM: Setup device handling
+27/11/19 6:01:55 PM: Setup device properties
+27/11/19 6:01:55 PM: DEBUG: document handling 1
+27/11/19 6:01:55 PM: DEBUG: feeder status 3
+27/11/19 6:02:03 PM: ADF has more pages: Yes
+27/11/19 6:02:04 PM: Setup device handling
+27/11/19 6:02:04 PM: Setup device properties
+27/11/19 6:02:04 PM: DEBUG: document handling 1
+27/11/19 6:02:04 PM: DEBUG: feeder status 3
+27/11/19 6:02:12 PM: ADF has more pages: Yes
+27/11/19 6:02:12 PM: Setup device handling
+27/11/19 6:02:12 PM: Setup device properties
+27/11/19 6:02:12 PM: DEBUG: document handling 1
+27/11/19 6:02:12 PM: DEBUG: feeder status 3
+27/11/19 6:02:20 PM: ADF has more pages: Yes
+27/11/19 6:02:20 PM: Setup device handling
+27/11/19 6:02:20 PM: Setup device properties
+27/11/19 6:02:20 PM: DEBUG: document handling 1
+27/11/19 6:02:20 PM: DEBUG: feeder status 3
+27/11/19 6:02:28 PM: ADF has more pages: Yes
+27/11/19 6:02:28 PM: Setup device handling
+27/11/19 6:02:28 PM: Setup device properties
+27/11/19 6:02:28 PM: DEBUG: document handling 1
+27/11/19 6:02:28 PM: DEBUG: feeder status 3
+27/11/19 6:02:36 PM: ADF has more pages: Yes
+27/11/19 6:02:36 PM: Setup device handling
+27/11/19 6:02:36 PM: Setup device properties
+27/11/19 6:02:36 PM: DEBUG: document handling 1
+27/11/19 6:02:37 PM: DEBUG: feeder status 3
+27/11/19 6:02:45 PM: ADF has more pages: Yes
+27/11/19 6:02:45 PM: Setup device handling
+27/11/19 6:02:45 PM: Setup device properties
+27/11/19 6:02:45 PM: DEBUG: document handling 1
+27/11/19 6:02:45 PM: DEBUG: feeder status 3
+27/11/19 6:02:45 PM: Paper feed empty
+27/11/19 6:03:03 PM: Finished scanning 9 files

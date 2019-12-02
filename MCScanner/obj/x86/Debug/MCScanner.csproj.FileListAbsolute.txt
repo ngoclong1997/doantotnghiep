@@ -1,0 +1,48 @@
+C:\Users\PC1\Downloads\serverScan-master\obj\x86\Debug\Interop.WIA.dll
+C:\Users\PC1\Downloads\serverScan-master\obj\x86\Debug\MCScanner.csproj.ResolveComReference.cache
+C:\Users\PC1\Downloads\serverScan-master\obj\x86\Debug\ServerScan.exe
+C:\Users\PC1\Downloads\serverScan-master\obj\x86\Debug\ServerScan.pdb
+D:\graduation thesis\MCScanner\obj\x86\Debug\Interop.WIA.dll
+D:\graduation thesis\MCScanner\obj\x86\Debug\MCScanner.csproj.ResolveComReference.cache
+D:\graduation thesis\MCScanner\obj\x86\Debug\ServerScan.exe
+D:\graduation thesis\MCScanner\obj\x86\Debug\ServerScan.pdb
+D:\graduation thesis\MCScanner\bin\Debug\ServerScan.exe
+D:\graduation thesis\MCScanner\bin\Debug\ServerScan.pdb
+D:\graduation thesis\MCScanner\obj\x86\Debug\MCScanner.csprojResolveAssemblyReference.cache
+D:\graduation thesis\MCScanner\obj\x86\Debug\ServerScan.Main.resources
+D:\graduation thesis\MCScanner\obj\x86\Debug\ServerScan.Properties.Resources.resources
+D:\graduation thesis\MCScanner\obj\x86\Debug\ServerScan.SelectScanner.resources
+D:\graduation thesis\MCScanner\obj\x86\Debug\MCScanner.csproj.GenerateResource.Cache
+D:\graduation\mctools\MCScanner\obj\x86\Debug\Interop.WIA.dll
+D:\graduation\mctools\MCScanner\obj\x86\Debug\MCScanner.csproj.ResolveComReference.cache
+D:\graduation\mctools\MCScanner\obj\x86\Debug\ServerScan.exe
+D:\graduation\mctools\MCScanner\obj\x86\Debug\ServerScan.pdb
+D:\graduation\mctools\MCScanner\bin\Debug\ServerScan.exe
+D:\graduation\mctools\MCScanner\bin\Debug\ServerScan.pdb
+D:\graduation\mctools\MCScanner\obj\x86\Debug\MCScanner.csprojResolveAssemblyReference.cache
+D:\graduation\mctools\MCScanner\obj\x86\Debug\ServerScan.Main.resources
+D:\graduation\mctools\MCScanner\obj\x86\Debug\ServerScan.Properties.Resources.resources
+D:\graduation\mctools\MCScanner\obj\x86\Debug\ServerScan.SelectScanner.resources
+D:\graduation\mctools\MCScanner\obj\x86\Debug\MCScanner.csproj.GenerateResource.Cache
+D:\graduation thesis\Windows\MCScanner\obj\x86\Debug\Interop.WIA.dll
+D:\graduation thesis\Windows\MCScanner\obj\x86\Debug\MCScanner.csproj.ResolveComReference.cache
+D:\graduation thesis\Windows\MCScanner\obj\x86\Debug\ServerScan.exe
+D:\graduation thesis\Windows\MCScanner\obj\x86\Debug\ServerScan.pdb
+D:\graduation thesis\Windows\MCScanner\bin\Debug\ServerScan.exe
+D:\graduation thesis\Windows\MCScanner\bin\Debug\ServerScan.pdb
+D:\graduation thesis\Windows\MCScanner\obj\x86\Debug\MCScanner.csprojResolveAssemblyReference.cache
+D:\graduation thesis\Windows\MCScanner\obj\x86\Debug\ServerScan.Main.resources
+D:\graduation thesis\Windows\MCScanner\obj\x86\Debug\ServerScan.Properties.Resources.resources
+D:\graduation thesis\Windows\MCScanner\obj\x86\Debug\ServerScan.SelectScanner.resources
+D:\graduation thesis\Windows\MCScanner\obj\x86\Debug\MCScanner.csproj.GenerateResource.Cache
+D:\graduation thesis\Final\MCScanner\obj\x86\Debug\Interop.WIA.dll
+D:\graduation thesis\Final\MCScanner\obj\x86\Debug\MCScanner.csproj.ResolveComReference.cache
+D:\graduation thesis\Final\MCScanner\obj\x86\Debug\ServerScan.exe
+D:\graduation thesis\Final\MCScanner\obj\x86\Debug\ServerScan.pdb
+D:\graduation thesis\Final\MCScanner\bin\Debug\ServerScan.exe
+D:\graduation thesis\Final\MCScanner\bin\Debug\ServerScan.pdb
+D:\graduation thesis\Final\MCScanner\obj\x86\Debug\MCScanner.csprojResolveAssemblyReference.cache
+D:\graduation thesis\Final\MCScanner\obj\x86\Debug\ServerScan.Main.resources
+D:\graduation thesis\Final\MCScanner\obj\x86\Debug\ServerScan.Properties.Resources.resources
+D:\graduation thesis\Final\MCScanner\obj\x86\Debug\ServerScan.SelectScanner.resources
+D:\graduation thesis\Final\MCScanner\obj\x86\Debug\MCScanner.csproj.GenerateResource.Cache
