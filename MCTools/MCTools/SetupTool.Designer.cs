@@ -170,10 +170,7 @@
             // 
             this.cbbTemplate.FormattingEnabled = true;
             this.cbbTemplate.Items.AddRange(new object[] {
-            "MC.TEMPLATE45Q",
-            "MC.TEMPLATE60Q",
-            "MC.TEMPLATE80Q",
-            "MC.TEMPLATE100Q"});
+            "MC.TEMPLATE45Q"});
             this.cbbTemplate.Location = new System.Drawing.Point(134, 214);
             this.cbbTemplate.Name = "cbbTemplate";
             this.cbbTemplate.Size = new System.Drawing.Size(315, 21);
